@@ -1,0 +1,16 @@
+{
+  "name": "postcss-with-stylus-in-gulp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "wilsson",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^6.1.2",
+    "gulp-postcss": "^6.0.1",
+    "gulp-stylus": "^2.1.1"
+  }
+}
