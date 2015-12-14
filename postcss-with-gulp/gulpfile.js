@@ -6,6 +6,6 @@ var gulp = require('gulp'),
 
 gulp.task('css',function(){
     gulp.src('./input/main.css')
-        .pipe(process([process]))
+        .pipe(postcss(process))
         .pipe(gulp.dest('./output'))
 });
