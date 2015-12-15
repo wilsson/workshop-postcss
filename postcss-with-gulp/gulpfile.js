@@ -1,7 +1,8 @@
 var gulp  = require('gulp'),
   postcss = require('gulp-postcss'),
   process = [
-    require('postcss-nested')
+    require('postcss-nested'),
+    require('postcss-custom-selectors')
   ];
 
 gulp.task('css',function(){
